@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color:white;
+  }
+  
+
+
+
+.image-container {
+    width: 50px;
+    height: 50px;
+    background-color:none;
+    border: none;
+    display: block;
+    object-fit: contain;
+}
+
+.navbar1 {
+    background-color: white;
+    color: white;
+}
+
+.header1{
+    color: white;
+    border: none;
+    background-color: white;
+}
+
+.headerflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%,20%;
+}
+
+
+/* --- Seccion Sale --- */
+
+.sale {
+    grid-area: sale;
+}
+
+
+
+.sale_contenedor {
+  display: flex;
+  width: auto; 
+  overflow-x: auto;
+  gap: 20px; 
+
+  
+  
+
+  
+
+}
+
+
+.caja {
+ 
+  
+    padding: 20px;
+    border: none;
+    width: 1500px;
+   height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+
+
+
+
+.caja img {
+    width: 1000px;
+    height: min-content;
+}
+
+.caja p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.sale_title {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(230, 191, 232);
+    font-family:'roboto', cursive;
+    color: black;
+    font-weight: bolder;
+    font-display: 10px;
+}
+
+
+
+img {
+    object-fit: contain;
+    width: auto; 
+    max-height: 100%
+   }
+
+   .buttonsale {
+    background-color: gray;
+    color: white;
+    border: 10px;
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    font-weight: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.buttonsale:hover {
+    border:rgb(237, 165, 241);
+    background-color: none;
+    color:black;
+}
+
+
+ .box_sale {
+    margin-top: 10px;
+ }
+
+
+
+
+
+
+.caja1 {
+    border: none;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+
+
+.headerfrase {
+display: flex;
+padding:10px;
+justify-content: center;
+align-items: center;
+
+}
+
+.headerfrase h1 {
+    size: 20px;
+    object-fit: contain;
+    font-family: 'Ms madi';
+    font-size: 30px;
+}
+   
+
+.caja1_text{
+    display: flex;
+  justify-content: center;
+  
+  align-items:center;
+  flex-direction: column;
+
+   
+}
+
+
+
+
+.caja_boton {
+    background-color: rgb(211, 150, 214);
+    color: black;
+    border: 10px;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 5px;
+    text-align: center;
+}
+
+.caja_boton:hover {
+    border:rgb(228, 206, 229);
+
+    color:rgb(228, 206, 229);
+    
+}
+
+
+.text1 {
+    font-family: 'Ms Madi', cursive;
+}
+
+.text2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.text3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.imgcaja {
+    width: 100%;
+
+    height: 500px;
+
+}
+
+.caja4 img {
+    padding: 2%;
+}
+
+ 
+.contenedor_instagram {
+    margin-bottom: 10px;
+}
+
+.form {
+grid-area: form;
+width: 100%;
+text-align: center;
+margin-bottom: 40px;
+
+}
+
+.container form {
+    color: rgb(211, 150, 214);
+    text-align: center, justify;
+    
+}
+
+
+
+
+.caja_boton2 {
+    background-color: rgb(211, 150, 214);
+    color: black;
+    border: 5px;
+    border-radius: 15px;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 5px;
+    text-align: center;
+}
+
+.caja_boton2:hover {
+    border:rgb(228, 206, 229);
+
+    color:rgb(228, 206, 229);
+    
+}
+
+
+
+ .footer {
+   grid-area: footer;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: rgb(233, 191, 236);
+   align-items: flex-start;
+   margin-top: 30px;
+
+ }
+
+ .footer_text {
+    font-size: 2 rem;
+ }
+
+ .container_redes {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4rem;
+
+ }
+
+ .redes {
+    grid-area: redes;
+ }
+ 
+ .redes_title {
+    background-color: rgb(233, 191, 236);
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: bolder;
+    padding: 14px;
+
+ }
+ 
+.contenedor_redes {
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.iconredes {
+    width: 100%;
+}
+
+
+
+
+
+    
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
