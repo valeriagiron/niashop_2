@@ -1,0 +1,53 @@
+.buttonsale {
+    background-color: gray;
+    color: white;
+    border: 10px;
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    font-weight: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        border:rgb(237, 165, 241);
+        background-color: none;
+        color:black;
+    }
+  
+}
+
+
+.caja_boton {
+    background-color: rgb(211, 150, 214);
+    color: black;
+    border: 10px;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 5px;
+    text-align: center;
+    &:hover {
+        border:rgb(228, 206, 229);
+        color:rgb(228, 206, 229);
+    }
+}
+
+
+
+
+.caja_boton2 {
+    background-color: rgb(211, 150, 214);
+    color: black;
+    border: 5px;
+    border-radius: 15px;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 5px;
+    text-align: center;
+    &:hover {
+        border:rgb(228, 206, 229);
+        color:rgb(228, 206, 229);
+    }
+}
+

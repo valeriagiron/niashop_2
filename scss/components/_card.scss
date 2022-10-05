@@ -1,0 +1,43 @@
+.caja {
+    padding: 20px;
+    border: none;
+    width: 1500px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 1000px;
+        height: min-content;
+    }
+
+    & p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    &1 {
+        border: none;
+        display:flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+       align-items: center;
+        &_text {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: column;
+            
+        }
+    }
+}
+
+.caja4 img {
+    padding: 2%;
+}
+
+
+
+
+
+

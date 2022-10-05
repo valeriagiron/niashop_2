@@ -1,0 +1,43 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(233, 191, 236);
+    align-items: flex-start;
+    margin-top: 30px;
+ 
+}
+ 
+.footer_text {
+     font-size: 2 rem;
+}
+
+
+
+.redes {
+    grid-area: redes;
+    &_title {
+        background-color: rgb(233, 191, 236);
+        text-align: center;
+        font-family: 'roboto';
+        font-weight: bolder;
+        padding: 14px;
+    }
+ }
+
+ 
+.contenedor_redes {
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.iconredes {
+    width: 100%;
+}
+
+

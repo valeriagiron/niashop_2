@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_niashop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriagiron/niashop_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriagiron/niashop_2/issues"
+  },
+  "homepage": "https://github.com/valeriagiron/niashop_2#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

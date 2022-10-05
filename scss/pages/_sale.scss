@@ -1,0 +1,35 @@
+/* --- Seccion Sale --- */
+
+.sale {
+    grid-area: sale;
+    &_contenedor {
+        display: flex;
+        width: auto; 
+        overflow-x: auto;
+        gap: 20px; 
+    }
+    &_title {
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(230, 191, 232);
+        font-family:'roboto', cursive;
+        color: black;
+        font-weight: bolder;
+        font-display: 10px;
+    }
+}
+
+.box_sale {
+    margin-top: 10px;
+    img {
+        height: min-content;
+    }
+ }
+
+
+
+
+
+
+
+

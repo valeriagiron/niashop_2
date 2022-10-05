@@ -1,0 +1,41 @@
+.navbar1 {
+    background-color: white;
+    color: white;
+}
+
+.navbox {
+    display: flex;  
+    &_1 {
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+    }
+}
+
+
+
+.header1{
+    color: white;
+    border: none;
+    background-color: white;
+}
+
+.headerflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%,20%;
+}
+
+.headerfrase {
+    display: flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        size: 20px;
+        object-fit: contain;
+        font-family: 'Ms madi';
+        font-size: 30px;
+        }
+    }
