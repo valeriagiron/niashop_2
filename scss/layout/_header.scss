@@ -4,6 +4,7 @@
 }
 
 .navbox {
+    @extend .navbar1;
     display: flex;  
     &_1 {
         display: flex;
@@ -20,22 +21,29 @@
     background-color: white;
 }
 
-.headerflex {
+
+
+@mixin headerproperty {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20%,20%;
 }
 
+.headerflex {
+    @include headerproperty;
+}
+
 .headerfrase {
+    @include headerproperty;
     display: flex;
     padding:10px;
     justify-content: center;
     align-items: center;
-    h1 {
+    P {
         size: 20px;
         object-fit: contain;
-        font-family: 'Ms madi';
+        font-family: 'Ms Madi', cursive;
         font-size: 30px;
         }
     }

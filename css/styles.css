@@ -30,11 +30,13 @@ img {
 
 .text1 {
   font-family: "Ms Madi", cursive;
+  text-align: center;
 }
 
 .text2 {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  align-items: center;
 }
 
 .text3 {
@@ -55,7 +57,7 @@ img {
 }
 
 .footer_text {
-  font-size: 2 rem;
+  font-size: 2rem;
 }
 
 .redes {
@@ -87,13 +89,19 @@ img {
   text-align: center;
   margin-bottom: 40px;
 }
+.form_text {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
 
-.container form {
+.container_form {
+  display: flex;
+  align-items: flex-end;
   color: rgb(211, 150, 214);
   text-align: center, justify;
 }
 
-.navbar1 {
+.navbar1, .navbox {
   background-color: white;
   color: white;
 }
@@ -122,14 +130,18 @@ img {
 
 .headerfrase {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20%, 20%;
+  display: flex;
   padding: 10px;
   justify-content: center;
   align-items: center;
 }
-.headerfrase h1 {
+.headerfrase P {
   size: 20px;
   object-fit: contain;
-  font-family: "Ms madi";
+  font-family: "Ms Madi", cursive;
   font-size: 30px;
 }
 
@@ -209,6 +221,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .caja4 img {
