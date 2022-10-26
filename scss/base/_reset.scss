@@ -9,13 +9,24 @@ body {
   }
 
 .image-container {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 400px;
+    background-color:none;
+    border: none;
+    display: block;
+    margin-left: 10px;
+  
+}
+
+.image-portada {
+    width: 500px;
+    height: 500px;
     background-color:none;
     border: none;
     display: block;
     object-fit: contain;
     margin-left: 10px;
+
 }
 
 img {
@@ -25,7 +36,8 @@ img {
    }
 
 .imgcaja {
-    width: 100%;
-    height: max-content;
+    width: 20px;
+    height: 30px;
+
 
 }

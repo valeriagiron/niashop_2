@@ -1,18 +1,17 @@
 .buttonsale {
-    background-color: gray;
-    color: white;
+    background-color: white;
+    border-color: black;
     border: 10px;
-    border-radius: 10px;
+
+    border-radius: 20px;
     width: 6rem;
     height: 3rem;
     font-weight: 20px;
-    display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
     &:hover {
-        border:rgb(237, 165, 241);
-        background-color: none;
-        color:black;
+        border:rgb(156, 95, 159);
+        color:rgb(204, 135, 208);
     }
   
 }
