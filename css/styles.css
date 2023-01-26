@@ -17,6 +17,17 @@ body {
   margin-left: 10px;
 }
 
+
+.card{
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  border: none;
+  justify-content: center;
+
+}
+
+
 img {
   object-fit: contain;
   width: auto;
@@ -26,6 +37,13 @@ img {
 .imgcaja {
   width: 100%;
   height: max-content;
+}
+
+.imgProductos {
+  width: 150px;
+  height: 150 px;
+  object-fit: contain;
+  margin-top: 1 rem;
 }
 
 .text1 {
@@ -69,6 +87,16 @@ img {
   font-family: "roboto";
   font-weight: bolder;
   padding: 14px;
+}
+
+.colorBoton {
+  color: white;
+  background-color: #ae65bb;
+}
+
+.colorBoton:hover {
+  background-color: rgba(239, 167, 212, 0.785);
+  color: white;
 }
 
 .contenedor_redes {

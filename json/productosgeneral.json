@@ -1,0 +1,75 @@
+[
+  {
+    "nombre": "Flarepant Nia",
+    "color": "Gris",
+    "precio": 40,
+    "img": "../assets/images/flare1.png",
+    "id": 11,
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Flarepant Nia",
+    "color": "Ladrillo",
+    "precio": 40,
+    "img": "../assets/images/flare2.png",
+    "id": 12,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Flarepant Nia",
+    "color": "Negro",
+    "precio": 40,
+    "img": "../assets/images/flarenegro2.jpg",
+    "id": 13,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Jogger Oversized",
+    "color": "Gris",
+    "precio": 50,
+    "img": "../assets/images/jogger1.jpeg",
+    "id": 21,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Jogger Oversized",
+    "color": "Celeste",
+    "img": "../assets/images/jogger2.jpeg",
+    "precio": 50,
+    "id": 22,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Jogger Oversized",
+    "color": "Lila",
+    "img": "../assets/images/jogger3.jpeg",
+    "precio": 50,
+    "id": 23,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Polera flores",
+    "color": "Blanco",
+    "img": "../assets/images/polera blanca.jpg",
+    "precio": 60,
+    "id": 31,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Polera flores",
+    "color": "Verde",
+    "img": "../assets/images/polera verde.jpg",
+    "precio": 60,
+    "id": 32,
+    "cantidad": 1
+  },
+  {
+    "nombre": "Polera flores",
+    "color": "Negro",
+    "img": "../assets/images/polera negra.jpg",
+    "precio": 60,
+    "id": 33,
+    "cantidad": 1
+  }
+]

@@ -17,6 +17,15 @@
 
 }
 
+.colorBoton {
+    color: white;
+    background-color: #ae65bb;
+}
+
+.colorBoton:hover {
+    background-color: rgba(239, 167, 212, 0.785);
+    color: white;
+}
 
 .caja_boton {
     background-color: rgb(211, 150, 214);
